@@ -1,0 +1,30 @@
+# --- Секреты ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# --- Сборка ---
+dist/
+build/
+out/
+coverage/
+
+# --- ОС / IDE ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
